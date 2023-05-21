@@ -1,0 +1,70 @@
+/* Body styles */
+body {
+    font-family: 'DM Sans', sans-serif;
+    background-color: #dbdbdb;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+  }
+/* https://thegraph.com/en/ */
+.text-glow {
+    text-shadow: 0 0 80px rgb(192 219 255 / 35%), 0 0 32px rgb(65 120 255 / 24%);
+  }
+
+/* https://rareblocks.xyz/ */
+.text-gradient {
+    background: linear-gradient(to right, #30CFD0, #c43ad6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+/* Heading styles */
+h1 {
+    color: #333;
+    text-align: center;
+}
+
+/* Form styles */
+form {
+    max-width: 400px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+
+button[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #555;
+}
+
+/* Thank you page styles */
+p {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 18px;
+    color: #333;
+}
