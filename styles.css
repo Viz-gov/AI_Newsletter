@@ -1,7 +1,7 @@
 /* Body styles */
 body {
     font-family: 'DM Sans', sans-serif;
-    background-color: #dbdbdb;
+    background-color: #1D1E22;
     color: white;
     padding: 1rem;
     text-align: center;
@@ -13,7 +13,7 @@ body {
 
 /* https://rareblocks.xyz/ */
 .text-gradient {
-    background: linear-gradient(to right, #30CFD0, #c43ad6);
+    background: linear-gradient(to right, #B71E1E, #ffffff);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
@@ -27,10 +27,9 @@ h1 {
 form {
     max-width: 400px;
     margin: 20px auto;
-    background-color: #fff;
+    background-color: #1D1E22;
     padding: 20px;
     border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 label {
@@ -68,3 +67,88 @@ p {
     font-size: 18px;
     color: #333;
 }
+nav {
+    background-color: #1D1E22;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo img {
+    width: 100px; /* Adjust the size of your logo */
+    height: auto;
+    margin-right: 10px;
+  }
+  
+  .logo span {
+    font-weight: bold;
+    font-size: 18px;
+  }
+  
+  .menu-items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .menu-items a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .try-now-btn {
+    background-color: #B71E1E;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  /* Existing CSS styles for the navigation bar */
+
+footer {
+    background-color: #1D1E22;
+    padding: 20px;
+    color: #666;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .footer-section {
+    flex-basis: 30%;
+  }
+  
+  .footer-section h3 {
+    margin-bottom: 10px;
+  }
+  
+  .footer-section ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-section li {
+    margin-bottom: 5px;
+  }
+  
+  .footer-section a {
+    text-decoration: none;
+    color: #666;
+  }
+  
+  .footer-bottom {
+    margin-top: 20px;
+  }
+  
